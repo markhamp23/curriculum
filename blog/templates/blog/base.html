@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+     <title>{% block title %}{% endblock %}</title>
+     <meta charSet="UTF-8">
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>     
+</html>
